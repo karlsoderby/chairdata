@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: all 0.2s;
+}
+
+
+
+@media (max-width: 768px){
+  #svinet {
+    margin-top: 50%;
+    
+  }
+  #knapparna {
+    font-size: 30px;
+  }
+}
+
+#knapparna {
+  font-size: 12rem;
+  font-family:'Quicksand', sans-serif;
+  
+  margin-left: 50px;
+  margin-top: 5px;
+  color: red;
+  text-align: center;
+}
+
+#knapparna2 {
+  font-size: 12rem;
+  font-family:'Quicksand', sans-serif;
+  
+  margin-left: 50px;
+  margin-top: 5px;
+  color: red;
+}
+
+#done {
+  
+}
+
+.danger1 {
+color: transparent;
+font-size: 3rem;
+width: 350px;
+height: 150px;
+position: fixed;
+top: 30%;
+left: 37%;
+transition: all 0.2s;
+text-align: center;
+font-family: 'Quicksand';
+border-radius: 20px;
+padding-top: 15px;
+}
+
+.danger2 {
+  color: white;
+  font-size: 3rem;
+  width: 350px;
+  height: 150px;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  transition: all 0.2s;
+  background-color: red;
+  text-align: center;
+  font-family: 'Quicksand';
+  border-radius: 20px;
+  padding-top: 15px;
+}
+
+
+
+
+
+#stretch {
+  position: fixed;
+  top: 25%;
+  top: 50%;
+  left: 40%;
+  font-size: 5rem;
+  font-family: 'Quicksand';
+}
+
